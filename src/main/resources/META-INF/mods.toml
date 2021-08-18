@@ -1,0 +1,44 @@
+
+modLoader="javafml" #mandatory
+
+loaderVersion="[36,)" #mandatory
+
+license="All rights reserved"
+
+[[mods]] #mandatory
+
+logoFile="triangles.png"
+
+modId="a-world-of-flavour" #mandatory
+
+version="0.0.2" #mandatory
+
+displayName="A World Of Flavour" #mandatory
+
+authors="Sam, Gregory, Thomas" #optional
+
+description='''
+A better version of vanilla food
+'''
+
+
+
+[[dependencies.a-world-of-flavour]] #optional
+
+   modId="forge" #mandatory
+
+   mandatory=true #mandatory
+
+   versionRange="[36,)" #mandatory
+
+   ordering="NONE"
+
+   side="BOTH"
+
+[[dependencies.a-world-of-flavour]]
+   modId="minecraft"
+   mandatory=true
+
+   versionRange="[1.16.5,1.17)"
+   ordering="NONE"
+   side="BOTH"
