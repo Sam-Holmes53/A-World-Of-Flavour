@@ -2,7 +2,6 @@ package com.samholmes.aworldofflavour;
 
 
 import com.samholmes.aworldofflavour.util.RegistryHandler;
-import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.common.MinecraftForge;
